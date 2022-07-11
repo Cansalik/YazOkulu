@@ -11,6 +11,6 @@ namespace DataAccessLayer
 {
     public class Baglanti
     {
-        public static SqlConnection bgl = new SqlConnection(@"Data Source=DESKTOP-0AQV4FJ;Initial Catalog=db_YazOkulu;Integrated Security=True");
+        public static SqlConnection bgl = new SqlConnection("Data Source=DESKTOP-0AQV4FJ;Initial Catalog=db_YazOkulu;Integrated Security=True");
     }
 }
